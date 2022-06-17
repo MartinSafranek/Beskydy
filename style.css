@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/***** reusable *****/
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.header {
+  background: #238049;
+  height: 70px;
+}
+
+.navbar .logo {
+  height: 50px;
+  margin: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.navbar .ca {
+  float: left;
+  line-height: 70px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.navbar .ca2 {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.navbar ul {
+  margin: 20px;
+  float: right;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 35px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #aeb1aa;
+  -webkit-transition: border-bottom 0.3s;
+  transition: border-bottom 0.3s;
+}
+
+.pokus {
+  background: url(img/beskydy2.jpg);
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("img/beskydy2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/beskydy2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pokus h1 {
+  color: #070707;
+  position: relative;
+  top: 30%;
+  left: 20%;
+  font-size: 40px;
+}
+
+.main-content .col .i1 {
+  width: 750px;
+}
+
+.main-content .col .i2 {
+  width: 750px;
+}
+
+.caption {
+  color: chocolate;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin: 20px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.content {
+  padding: 25px;
+  margin: 50px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.5))), url("img/beskydy2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("img/beskydy2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content .tip-caption {
+  color: chocolate;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin: 20px;
+}
+
+.content .caption-mid {
+  color: #060606;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  padding-bottom: 10px;
+  color: #ad6565;
+}
+
+.content .tip-img {
+  width: 530px;
+  padding-top: 10px;
+}
+
+.content .tip-text {
+  color: rgba(255, 255, 255, 0.746);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 5px;
+}
+
+.footer {
+  height: 120px;
+  background: #238049;
+}
+
+.footer .footer-caption {
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer .contact {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** reusable *****/
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/functions";
+
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+.header{
+    background: $header-footer-background;
+    height: 70px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+.navbar{
+     
+       
+         
+    .logo{
+    
+    height: 50px;
+    margin: 10px;
+    margin-right: 20px;
+    float: left;
+    
+            
+    }
+     
+    .ca{
+        float: left;
+        line-height: 70px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    
+    .ca2{
+        height: 30px;
+        margin-top: 5px;
+        
+        
+        
+    }
+    
+    
+    
+
+    ul {
+        margin: 20px;
+        float: right;
+        
+        
+       
+               
+    }
+    
+               
+    li {
+           display: inline-block; 
+           font-size: 25px;
+           margin-left: 35px;
+           width: 100px;
+           //border: 1px solid red;
+           text-align: center;
+           vertical-align: middle;
+           
+           
+           
+           
+    }
+        
+    a {
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+
+            
+            
+            &:hover{
+                border-bottom: 2px solid rgb(174, 177, 170);
+                transition: border-bottom 0.3s;
+                
+                
+            }
+
+    }
+    
+    
+}
+
+
+
+
+.pokus {
+
+        
+        
+        background: url(img/beskydy2.jpg);
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("img/beskydy2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        
+        h1{
+            color: rgb(7, 7, 7);
+            position: relative;
+            top: 30%;
+            left: 20%;
+            font-size: 40px;
+        }
+            
+}
+
+
+
+
+.main-content {
+
+
+    .col{
+        //border: 2px solid red;
+
+        .i1{
+            width: 750px;
+        }
+
+        .i2{
+            width: 750px;
+        }
+    }
+
+    
+}
+
+
+
+.caption {
+    @include descr-caption;
+}
+
+.text{
+    @include text-appear;
+}
+
+
+
+.content{
+    //border: 2px solid red;
+    padding: 25px;
+    margin: 50px 0;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("img/beskydy2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+               
+
+    .tip-caption{
+        @include descr-caption;
+    }
+
+    .caption-mid{
+        @include middle-caption;
+        padding-bottom: 10px;
+        color: rgb(173, 101, 101);
+    }
+
+    .tip-img{
+        width: 530px;
+        padding-top: 10px;
+    }
+
+    .tip-text{
+       color: rgba(255, 255, 255, 0.746);
+       font-size: 20px;
+       font-family: 'Times New Roman', Times, serif;
+       text-align: justify; 
+       letter-spacing: 1px;
+       word-spacing: 2px;
+       padding: 5px;
+    }
+}
+
+
+
+
+.footer{
+    height: 120px;
+    background: $header-footer-background;
+    
+    .footer-content{
+        
+
+    }
+
+    .footer-caption{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .contact{
+        margin-top: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
